@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("./fonts/Ubuntu/Lora/Lora-Italic-VariableFont_wght.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+}
+
+.news_font{
+  font-size: 90px;
+  background-color:  #4c7271;
+  color: rgba(12, 12, 12, 0.762);
+  border-bottom: 8px double rgba(12, 12, 12, 0.762);
+
+}
+
+.news_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar {
+  background-color:   #4c7271;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgba(12, 12, 12, 0.762);
+  font-size: 27px;
+  padding: 6vh 7vw;
+}
+
+.form {
+  background-color:  #4c7271;
+  height: 40vh;
+}
+
+.input {
+  padding: 30px 60px;
+  margin-right: 50px;
+  border-radius: 30px;
+  border: none
+}
+
+.language {
+  padding: 30px 40px;
+  border-radius: 30px;
+  margin-right: 50px;
+}
+
+.searchbar {
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.img {
+  width: 70%;
+  border: 10px solid #282c34;
+}
+
+.headliner {
+  padding-bottom: 10px;
+  margin: 50px 15vw;
+  font-size: 30px;
+  border-bottom: 3px solid #282c34;
+}
+
+.readMore{
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #282c34;
+  color: white;
+}
+
+.published{
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.news_block {
+  background-color: #e8e8e8;
+  margin: 5vh 5vw;
+  padding: 20px;
+}
+
+
+
